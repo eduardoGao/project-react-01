@@ -48,18 +48,11 @@
     "jest": "^25.1.0",
     "json-server": "^0.15.1",
     "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.14.1",
     "prettier": "^1.19.1",
+    "sass-loader": "^9.0.3",
     "style-loader": "^0.23.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2"
-  },
-  "jest": {
-    "verbose": true,
-    "moduleNameMapper": {
-      "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js"
-    },
-    "setupFilesAfterEnv": [
-      "<rootDir>/src/__test__/setupTest.js"
-    ]
   }
 }

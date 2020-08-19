@@ -1,0 +1,16 @@
+@import "../../Vars.scss";
+
+.Profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4.5em 0;
+  h2 {
+    font-size: 2.5em;
+    margin-right: 2em;
+    color: $main-color;
+  }
+  p {
+    font-size: 1.2em;
+  }
+}

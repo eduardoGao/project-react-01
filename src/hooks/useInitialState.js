@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const getData = (API) => {
+const useInitialState = (API) => {
   const [info, setInfo] = useState([]);
 
   useEffect(() => {
@@ -11,4 +11,4 @@ const getData = (API) => {
   return info;
 };
 
-export default getData;
+export default useInitialState;

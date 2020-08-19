@@ -1,0 +1,14 @@
+@import "../../Vars.scss";
+
+.Carousel {
+  background-color: white;
+  margin: 3em 0;
+  width: 100%;
+  border-radius: 1em;
+  overflow: overlay;
+  white-space: nowrap;
+}
+
+.Carousel::-webkit-scrollbar {
+  display: none;
+}

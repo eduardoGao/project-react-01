@@ -1,0 +1,9 @@
+@import "../../Vars.scss";
+
+footer {
+  background: $gradient2;
+  color: $main-color;
+  height: 100px;
+  display: grid;
+  place-items: center;
+}

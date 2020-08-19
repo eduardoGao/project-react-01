@@ -1,0 +1,26 @@
+@import "../../Vars.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: $ligth-color;
+  font-family: $main-font;
+  color: $dark-color;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(auto, 900px);
+  justify-content: center;
+}
+
+.card {
+  border-right: 1px solid $main-color;
+  width: auto;
+  height: 400px;
+  display: inline-block;
+  overflow: hidden;
+}

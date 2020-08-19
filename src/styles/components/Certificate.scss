@@ -1,0 +1,19 @@
+@import "../../Vars.scss";
+
+.gradient {
+  background: $gradient2;
+  
+}
+
+.Certificate {
+  text-align: center;
+  color: $ligth-color;
+  padding: 4.5em 0;
+  h2 {
+    font-size: 2.5em;
+    color: $main-color;
+  }
+  p {
+    font-size: 1.2em;
+  }
+}

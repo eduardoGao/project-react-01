@@ -1,0 +1,33 @@
+@import "../../Vars.scss";
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background-color: white;
+  background: $gradient;
+
+  color:white;
+  border-bottom-left-radius: $radius;
+  border-bottom-right-radius: $radius;
+  padding: 3em;
+  &__img {
+    margin-right: 2em;
+    img {
+      width: 200px;
+      border-radius: 50%;
+    }
+  }
+  &__info {
+    h1 {
+      letter-spacing: .2em;
+      font-weight: 900;
+      font-size: 3em;
+      color: white;
+    }
+    h2 {
+    letter-spacing: .3em;
+    }
+  }
+  
+}

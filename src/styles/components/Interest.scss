@@ -1,0 +1,16 @@
+@import "../../Vars.scss";
+
+.gradient2 {
+  background: $gradient;
+
+}
+
+.Interest {
+  padding: 6em 0;
+  display: flex;
+  justify-content: space-between;
+
+  &__items {
+    color: $ligth-color;
+  }
+}
